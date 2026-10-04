@@ -1,0 +1,5 @@
+title "GitHub Flow QA"
+direction "LR"
+client = generic.Mobile("QA client")
+api = generic.Rack("QA API")
+client -> api
